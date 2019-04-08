@@ -79,7 +79,7 @@ export default class App extends ux.App {
     }
 
     static cropImage({url, w, h}) {
-        return ux.Ui.getImageUrl(url, {width: w, height: h, type: 'crop'});
+        return ux.Ui.getImage(url, {width: w, height: h, type: 'crop'});
     }
 
 }

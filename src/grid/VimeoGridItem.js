@@ -33,7 +33,7 @@ export default class VimeoGridItem extends lng.Component {
 
         this.patch({
             Image: {
-                src: App.cropImage({url: v.getPicture({w: 640}).link, w: 400, h: 215})
+                texture: App.cropImage({url: v.getPicture({w: 640}).link, w: 400, h: 215})
             },
             Border: {
                 Time: {

@@ -228,7 +228,7 @@ export default class VimeoTeaser extends lng.Component {
         this._current = item;
 
         this.patch({
-            Clipper: {Image: {src: App.cropImage({url: item.largest, w: 1400, h: 590})}},
+            Clipper: {Image: {texture: App.cropImage({url: item.largest, w: 1400, h: 590})}},
             Title: {text: {text: item.title}},
             User: {text: {text: item.username}}
         });
