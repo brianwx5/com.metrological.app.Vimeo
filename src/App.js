@@ -7,7 +7,7 @@ export default class App extends ux.App {
     static _template() {
         return {
             Player: {type: VimeoPlayer, alpha: 0, signals: {playerStop: true}},
-            Main: {type: VimeoMain}
+            Main: { type: VimeoMain}
         };
     }
 
